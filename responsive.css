@@ -1,0 +1,384 @@
+@media (max-width: 1199px) {
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        order: 3;
+    }
+
+    .get-started {
+        margin: 0 15px 0 0;
+        padding: 8px 17px;
+    }
+}
+
+@media (max-width: 390px) {}
+
+@media (max-width: 576px) {
+    .portfolio-images ul {
+        font-size: 14px;
+        gap: 13px;
+    }
+}
+
+@media (max-width: 640px) {
+    .main-title h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .main-title p {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .main-title a {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        margin: 0 auto;
+        padding: 0 12px;
+    }
+
+
+
+    .logo-img-div img {
+        padding: 25px 0px 25px 30px;
+    }
+
+    .main-title,
+    .home-img {
+        width: 100%;
+    }
+
+    .home-img {
+        order: 1;
+    }
+
+    .main-title {
+        order: 2;
+    }
+
+    /* section champion end */
+    /* section services start */
+    .services-4-box {
+        width: 100%;
+    }
+
+    /* services section :end */
+    /* features section :start */
+    .w-25 {
+        width: 100%;
+    }
+
+    /* features section :end */
+    /* team section :start */
+    .w-33 {
+        width: 100%;
+    }
+
+    /* team section :end */
+    /* pricing section :start */
+    .w-33-3 {
+        width: 100%;
+    }
+
+    /* pricing section :end */
+    /* frequntly no need */
+    /* contact stection :start */
+    .input-w-50, .input-w-100 {
+        width: 100%;
+    }
+    
+
+    .m-t-24 {
+        margin-top: 24px;
+    }
+
+    .p-right-12 {
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 740px;
+        margin: 0 auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .main-title,
+    .home-img {
+        width: 100%;
+    }
+
+    .home-img {
+        order: 1;
+    }
+
+    .main-title {
+        order: 2;
+    }
+
+    .logo-img-div {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+
+    .logo-img-div img {
+        padding: 25px 40px;
+    }
+
+    /* logo-img end */
+    .about-4-box {
+        width: 50%;
+    }
+    .m-0-min {
+        margin-top: 0;
+    }
+    .about-p .p-l-1-3 {
+        padding-left: 0;
+    }
+    .about-us .p-r-2-4 {
+        padding-right: 0;
+    }
+
+    /* champion section strat */
+    .champion-box {
+        width: 100%;
+
+    }
+
+    /* section champion end */
+    /* section services start */
+    .services-4-box {
+        width: 50%;
+    }
+    .window .w-50{
+        padding: 0;
+    }
+
+    /* services section :end */
+    /* features section :start */
+    .w-25 {
+        width: 33.33%;
+    }
+
+    /* features section :end */
+    /* portfolio section :start */
+    .w-33 {
+        width: 50%;
+    }
+
+    /* portfolio section :end */
+    /* team section start */
+    .w-25-2 {
+        width: 50%;
+    }
+
+    /* team section :end */
+    /* pricing section :start */
+    .w-33-3 {
+        width: 100%;
+    }
+
+    /* pricing section :start */
+    /* contact section :start */
+    .w-41-contact, .w-58-contact {
+        padding: 0 6px;
+    }
+    .input-w-50 {
+        width: 50%;
+        padding: 0;
+
+    }
+    .m-t-24 {
+        padding-left: 24px;
+    }
+
+    .input-w-100 {
+        width: 100%;
+        padding: 0;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+
+    }
+
+    .home-img {
+        order: 2;
+    }
+
+    .main-title {
+        order: 1;
+    }
+
+    .main-title,
+    .home-img {
+        width: 50%;
+    }
+
+    /* frist section end */
+    /* champion section start */
+    .champion-img {
+        width: 41%;
+    }
+
+    .champion-recode {
+        width: 59%;
+    }
+
+    .champion-box {
+        width: 50%;
+
+    }
+
+    #champion-box {
+        margin-top: 0;
+    }
+
+    /* champion section :end */
+    /* window section :start */
+    .w-50 {
+        width: 50%;
+    }
+
+    /* window section :end */
+    /* features section :start */
+    .w-25 {
+        width: 25%;
+    }
+    .padding-l-0 {
+        padding-left: 0;
+        padding-right: 12px;
+    }
+    .padding-r-0 {
+        padding-right: 0;
+        padding-left: 12px;
+    }
+
+    /* features section :end */
+    /* portfolio section :start */
+    .w-33 {
+        width: 33.33%;
+    }
+
+    /* portfolio section :start */
+    /* team section :start */
+    .w-25-2 {
+        width: 25%;
+    }
+
+    /* team section :end */
+    /* pricing section :start */
+    .w-33-3 {
+        width: 33.33%;
+    }
+
+    /* pricing section :end */
+    /* frequently section :start */
+    .w-41,
+    .w-41-contact {
+        width: 41.66%;
+    }
+
+    .w-58,
+    .w-58-contact {
+        width: 58.33%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container-hd,
+    .container {
+        max-width: 1140px;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    nav div svg {
+        display: none;
+    }
+
+    nav li:hover>a,
+    nav a:focus,
+    nav li:first-child>a {
+        color: var(--nav-hover-color);
+    }
+
+    .logo-img-div {
+        width: 16.66666667%;
+    }
+
+    .logo-img-div img {
+        padding: 15px 40px;
+
+    }
+
+    /* logo-img end */
+    /* about section */
+    .about-p {
+        width: 41.66%;
+    }
+
+    .about-box {
+        width: 58.33%;
+
+    }
+
+    .about-p a {
+        align-self: flex-start !important;
+    }
+
+    #p-0 {
+        padding-right: 0;
+    }
+
+    .champion p {
+        padding-right: 1%;
+    }
+
+    /* section champion end */
+    /* section services start */
+    .services-4-box {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .logo-img-div img {
+        padding: 15px 35px;
+
+    }
+
+    /* champion start */
+    .champion p {
+        padding-right: 0;
+    }
+}
